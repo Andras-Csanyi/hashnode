@@ -86,7 +86,7 @@ One of the obvious disadvantage of linked list is that we only can traverse in o
 
 The other possible issue with linked list is that very easy to make a circular linked list.
 
-## Sources:
+## Sources
 
 - [Singly Linked List — Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [Data Structures and Algorithms: The Complete Masterclass](https://learning.oreilly.com/videos/data-structures-and/9781801078504/)
