@@ -35,7 +35,7 @@ Node with value “104” is the **tail**, as it doesn’t have a pointer pointi
 +-----------------+-------+
 ``` 
 
-###Add → O(1)
+### Add → O(1)
 This operation adds a new element to the end of Linked List. The drawings below describes that:
 
 - we have the value “**204**” which should be stored in the linked list — **step 1**
