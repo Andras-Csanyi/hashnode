@@ -50,7 +50,7 @@ As you can see adding a new node to the list doesn’t include any size manageme
 
 ![linked-list-add-new-node.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652714678320/XAW7TAvQz.png align="left")
 
-Before we move on I have to emphasise that inserting a new node anywhere in Linked List is also O(1). This is a huge advantage over array (remember, size management: copy array content and allocating contiguous memory) especially when there is an operation with lot of list merging operation. There will be another article about when to use array and when to use linked list.
+Before we move on I have to emphasise that inserting a new node anywhere in Linked List is also O(1). This is a huge advantage over array (remember, size management: copy array content and allocating contiguous memory) especially when there is an operation with lot of list merging operation. [There will be another article about when to use array and when to use linked list](https://andrascsanyi.hashnode.dev/array-or-linkedlist-or-custom-data-type).
 
 ### Delete → O(1)
 
