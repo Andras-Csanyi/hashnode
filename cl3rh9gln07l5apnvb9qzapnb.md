@@ -88,7 +88,7 @@ Update operation changes the node value. In order to achieve this we only have t
 
 ## Sources
 
-- [Singly Linked List — Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+- [Doubly Linked List — Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
 - [Data Structures and Algorithms: The Complete Masterclass](https://learning.oreilly.com/videos/data-structures-and/9781801078504/)
 - [Algorithms, Fourth Edition](https://learning.oreilly.com/library/view/algorithms-fourth-edition/9780132762564/)
 - [Algorithms: 24-part Lecture Series](https://learning.oreilly.com/videos/algorithms-24-part-lecture/9780134384528/)
