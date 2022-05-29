@@ -1,6 +1,6 @@
 ## Data structures: (Singly) Linked List
 
-I fill up the wholes in my knowledge regarding data structures and in this article a write up what I have learned about Linked Lists. I’m happy if you use this material, but please do a favour for yourself and don’t accept fully what you find here. Read through the sources to get a full picture.
+I fill up the holes in my knowledge regarding data structures and in this article a write up what I have learned about Linked Lists. I’m happy if you use this material, but please do a favour for yourself and don’t accept fully what you find here. Read through the sources to get a full picture.
 
 Linked list is another data structure where we can shovel stuff into a sequential order. From this point of view it is like array, but there are significant differences.
 
