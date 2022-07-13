@@ -19,7 +19,12 @@ A queue has two operations (it might have more depending on implementation):
 - **Dequeue**: removing the next element from the queue
 
 ## Time Complexity
-The time complexity of the queue depends on its implementation which can be array or linked list.
+The table below shows that enqueue and dequeue are `O(1)` operations, however it depends on the implementation.
+
+|   Operation | Time Complexity   |
+|---|---|
+| Enqueue  | `O(1)`  |
+| Dequeue | `O(1)`  |
 
 # Implementations
 Important to note that I describe a conceptual working of a queue using array or linked list. It doesn't include any implementation detail. This is something the engineer have to figure out using the language reference.
