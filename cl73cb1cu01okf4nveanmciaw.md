@@ -26,7 +26,7 @@ When an element is retrieved from the hash table the following steps will be exe
 2. the hash table implementation checks whether the given key is subject of collision resolution or not. If so, then the hash table implementation finds the right value and returns with it. If there is not collision it just returns the value.
 
 
-![Screenshot 2022-08-21 at 14.01.49.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661083335638/a2B-0Mwfz.png align="left")
+![Screenshot 2022-08-21 at 14.01.49.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661087304879/Otz8c3LfA.jpg align="left")
 
 # Hashing
 **Dead simple explanation**
@@ -76,7 +76,7 @@ In case of separate chaining AS/AE (called "alpha") is bigger than 1 meaning tha
 
 Further discussions can be found here [6].
 
-![Screenshot 2022-08-21 at 14.03.54.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661083447881/IdKCDqd9k.png align="left")
+![Screenshot 2022-08-21 at 14.03.54.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661087349102/Sw3rz3R-1.jpg align="left")
 
 ## Open addressing - linear probing
 Open addressing is another solution for the key collision problem. In this case when a collision happens we use the next available index in the array to store the value. 
@@ -91,8 +91,7 @@ In the added drawings you can see the following:
 - let's insert "**Frederick Fredstone**", this element also got the "**104**" hash value, so it should be inserted under the key "**104**", but it is not available. The internal logic of hash table checks whether the next index is available or not. It is available, so it inserts there.
 - the case is the same with "**Janus Janssen**"
 
-
-![Screenshot 2022-08-21 at 14.19.25.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661084374753/qP116OgQK.png align="left")
+![Screenshot 2022-08-21 at 14.19.25.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661087365773/LOxBNgb7b.jpg align="left")
 
 In case of searching the same happens but backwards.
 
