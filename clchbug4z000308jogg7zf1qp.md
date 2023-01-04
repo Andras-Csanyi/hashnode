@@ -1,6 +1,6 @@
 # Graph theory
 
-> **Disclaimer**! The graph theory described here is simplified and does not cover the whole topic. What you can find here helps you build up some level of understanding of graphs for processing them.
+> **Disclaimer**! The graph theory described here is simplified and does not cover the whole topic. What you can find here helps me to build up some level of understanding of graphs for processing them.
 
 The majority of the information here comes from [The Algorithms 4th edition book](https://algs4.cs.princeton.edu/home/).
 
