@@ -1,4 +1,4 @@
-# Why I make my own code generator?
+# Why do I create my own code generator?
 
 The architecture of the [Encyclopedia Galactica](https://github.com/EncyclopediaGalactica) platform, we can say that it is a platform, is a microservices architecture. Or something like that -ish...
 
