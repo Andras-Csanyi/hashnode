@@ -1,5 +1,7 @@
 # Why do I create my own code generator?
 
+> This article is part of a series about the code generator. Other posts in this series can be found [here](https://andrascsanyi.com/eg-main-page)!
+
 The architecture of the [Encyclopedia Galactica](https://github.com/EncyclopediaGalactica) platform, we can say that it is a platform, is a microservices architecture. Or something like that -ish...
 
 ![](https://media.giphy.com/media/26gs8GymfRPhduyyY/giphy-downsized-large.gif align="center")
