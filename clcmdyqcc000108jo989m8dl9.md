@@ -1,6 +1,6 @@
 # Code generator: DTO phase, status
 
-> This article is part of a series about the code generator. Other posts in this series can be found here!
+> This article is part of a series about the code generator. Other posts in this series can be found [here](https://andrascsanyi.com/eg-main-page)!
 
 Let's see where are with this code generator thingy.
 
