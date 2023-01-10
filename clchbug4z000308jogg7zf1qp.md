@@ -46,11 +46,15 @@ A path has a **length** which is the number of edges.
 
 A vertex is **connected** to another if there is an edge between them.
 
+**Note**: this definition considers a connection between two vertices. Nothing more.
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672730965845/e1b7a5f2-9432-4c21-ac4e-4da92697627c.png align="center")
 
 ## Connected graph
 
 A graph is **connected** if there is a path to all vertices in the graph.
+
+**Note**: this definition considers a graph and that there is a path to all vertices in the graph.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672731190800/3f68b6ac-054d-4435-a84e-4bbe5da5929f.png align="center")
 
