@@ -42,6 +42,8 @@ A path has a **length** which is the number of edges.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672645962547/9a8a6c03-e8f3-4a5c-bbfa-84d9a7afe3a2.png align="center")
 
+## Connected vertices
+
 A vertex is **connected** to another if there is an edge between them.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672730965845/e1b7a5f2-9432-4c21-ac4e-4da92697627c.png align="center")
