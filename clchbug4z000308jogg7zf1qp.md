@@ -4,13 +4,13 @@
 
 The majority of the information here comes from [The Algorithms 4th edition book](https://algs4.cs.princeton.edu/home/).
 
-## Graph
+# Graph
 
 The graph is a set of vertices and a collection of edges that each connect a pair of vertices. The screenshot below shows a simplified example of this.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672644348917/fe9fde3b-e006-48ce-9116-4faebe78edd5.png align="center")
 
-## Definitions
+# Definitions
 
 When an edge connects to a vertex to itself it is a **self-loop**. When two edges connect the same set of vertices we are talking about **parallel edges**.
 
@@ -46,7 +46,7 @@ A vertex is **connected** to another if there is an edge between them.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672730965845/e1b7a5f2-9432-4c21-ac4e-4da92697627c.png align="center")
 
-# Connected graph
+## Connected graph
 
 A graph is **connected** if there is a path to all vertices in the graph.
 
