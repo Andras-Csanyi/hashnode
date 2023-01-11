@@ -1,4 +1,4 @@
-## Data Structures: The Queue
+# Data Structures: The Queue
 
 # Intro
 Queue is another well known and barely known data structure. Possibly you won't use it on daily basis, however you will use services built on it like a message queue.
