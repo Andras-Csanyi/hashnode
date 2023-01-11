@@ -1,4 +1,4 @@
-## Data structures: Array
+# Data structures: Array
 
 I fill up the holes is my knowledge and this is a summary of what I have learned about arrays. At first I’ll describe the data structure and I’ll take a look at the C# implementations.
 
@@ -12,7 +12,7 @@ Worth to check which language offer contiguous, and not contiguous implementatio
 
 ## Operations and Big O
 
-```
+```json
 +-----------------+-------+
 |    Operation    | Big O |
 +-----------------+-------+
@@ -63,10 +63,13 @@ There is the third, not recommended, array implementation in C#. This is the [Ar
 
 When to use `[]`and `List<T>`?
 
-- if the array size is known and not going to change during operations then `[]` seems to be a good choice
-- if the array size changing then `List<T>` is a good choice
+* if the array size is known and not going to change during operations then `[]` seems to be a good choice
+    
+* if the array size changing then `List<T>` is a good choice
+    
 
 ## Resources
 
-- [Data Structures and Algorithms: The Complete Masterclass](https://learning.oreilly.com/videos/data-structures-and/9781801078504/)
-- [Algorithms, Fourth Edition](https://learning.oreilly.com/library/view/algorithms-fourth-edition/9780132762564/)
+* [Data Structures and Algorithms: The Complete Masterclass](https://learning.oreilly.com/videos/data-structures-and/9781801078504/)
+    
+* [Algorithms, Fourth Edition](https://learning.oreilly.com/library/view/algorithms-fourth-edition/9780132762564/)
