@@ -25,6 +25,12 @@ The goal of the kata is to separate the generic solution to an interview questio
         
 * explain the **O()** notation of the solution
     
+* **Testing**:
+    
+    * be sure the sliding happens according to the expectations
+        
+    * use boundary value analysis to test it
+        
 
 **Considerations**:
 
