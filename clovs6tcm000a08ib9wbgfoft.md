@@ -3,7 +3,7 @@ title: "Sliding window"
 datePublished: Sun Nov 12 2023 18:00:20 GMT+0000 (Coordinated Universal Time)
 cuid: clovs6tcm000a08ib9wbgfoft
 slug: sliding-window
-tags: katas, interview-preparations
+tags: katas, interview-questions, interview-katas
 
 ---
 
