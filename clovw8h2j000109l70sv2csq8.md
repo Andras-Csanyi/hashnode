@@ -3,7 +3,7 @@ title: "Graph traversal"
 datePublished: Sun Nov 12 2023 19:53:36 GMT+0000 (Coordinated Universal Time)
 cuid: clovw8h2j000109l70sv2csq8
 slug: graph-traversal
-tags: katas, interview-questions
+tags: katas, interview-questions, interview-katas
 
 ---
 
