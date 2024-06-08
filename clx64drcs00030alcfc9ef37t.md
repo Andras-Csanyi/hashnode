@@ -5,6 +5,7 @@ seoDescription: "Setting up NeoVim as a Java IDE using LunarVim, fixing bugs, an
 datePublished: Sat Jun 08 2024 12:57:00 GMT+0000 (Coordinated Universal Time)
 cuid: clx64drcs00030alcfc9ef37t
 slug: neovim-as-java-ide-first-steps
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717852502550/f8e10a5f-4c63-4495-b0f5-1ef1d3eb434c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1717851730699/9f63b672-0cd0-428d-855d-50b0a8674933.png
 tags: java, ides, neovim, lunarvim
 
