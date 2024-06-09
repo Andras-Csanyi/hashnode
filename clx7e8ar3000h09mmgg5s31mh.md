@@ -21,6 +21,8 @@ The configurations I am going to try out are based on [LunarVim](https://lunarvi
 
 *This article is continuously updated.*
 
+### <mark>The reference is always IntelliJ.</mark>
+
 # Code formatting
 
 * annotation placement for fields is configurable
