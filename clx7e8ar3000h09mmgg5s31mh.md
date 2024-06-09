@@ -1,6 +1,6 @@
 ---
 title: "NeoVim as Java IDE checklist"
-seoTitle: "NeoVim Java IDE Setup Guide"
+seoTitle: "NeoVim Java IDE capabilities and expectations checklist"
 seoDescription: "NeoVim Java IDE: code formatting, file management, test execution, debugging, IntelliSense, build system support"
 datePublished: Sun Jun 09 2024 10:20:28 GMT+0000 (Coordinated Universal Time)
 cuid: clx7e8ar3000h09mmgg5s31mh
