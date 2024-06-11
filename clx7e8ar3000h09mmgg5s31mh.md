@@ -86,6 +86,10 @@ The configurations I am going to try out are based on [LunarVim](https://lunarvi
     
     * checks if the configuration is correct
         
+    * when configuration changes (for example a new sources directory has been added) the configuration has to be reloaded and LSP has to pick up the java source files from the new added directory.
+        
+        %[https://x.com/csanyi_andras/status/1800054339332931664] 
+        
 * package configuration
     
     * intellisense to the package specifics
