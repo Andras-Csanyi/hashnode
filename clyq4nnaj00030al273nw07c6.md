@@ -15,6 +15,21 @@ In the recent weeks I did some discovery of what tools look good enough to build
 
 The terminal will be done by [Terminal.GUI](https://github.com/gui-cs/Terminal.Gui). The plan is that this UI will communicate with the Server responsible executing the test cases.
 
+**Expectations**:
+
+* it must be able to display a tree
+    
+    * the tree can be opened, closed, partially opened and closed
+        
+* leafs of the tree can be colored differently
+    
+* leafs of the tree can be selected
+    
+* the tree elements can be selected and further information displayed
+    
+* a tree element multiple hotkey can be bound
+    
+
 # Server
 
 The server will be a Dotnet Core server, probably ends up being gRPC, but for building a POC it will be a REST one.
@@ -24,6 +39,8 @@ Responsibility of the Server are the following:
 * parsing the output of Junit's ConsoleLauncher and process it for the UI
     
 * executing build whenever the code changes in order to reflect the changes on the UI, meaning if the developer adds a new test and the code can compile the new test should be displayed as soon as possible and with zero interaction from the developer
+    
+* can execute commands and parse its result
     
 
 # Test case discovery
