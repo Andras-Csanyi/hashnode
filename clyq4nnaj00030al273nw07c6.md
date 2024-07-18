@@ -1,8 +1,8 @@
 ---
-title: "Continuous testing for java - Keppler - Discovery"
+title: "Continuous testing for java - Keppler - Evaluation of chosen technologies for MVP"
 datePublished: Wed Jul 17 2024 17:39:47 GMT+0000 (Coordinated Universal Time)
 cuid: clyq4nnaj00030al273nw07c6
-slug: continuous-testing-for-java-keppler-discovery
+slug: continuous-testing-for-java-keppler-evaluation-of-chosen-technologies-for-mvp
 tags: java, terminal, testing, dotnet
 
 ---
@@ -320,9 +320,65 @@ Result:
 
 **Conclusion**: class level tags are added to the methods of the class and if the methods have their own tags they are added to the tree too.
 
-Filtering by package
+Scenario: there are test suites
 
-Filtering by tag
+[These](https://github.com/GeishaCoffee/JunitTest/tree/main/JunitTest/src/test/java/com/andrascsanyi/junittest/suite) classes are organised to suites.
+
+**Command**:
+
+```bash
+java -jar junit-platform-console-standalone-1.10.3.jar discover -cp 'target/test-classes/' --disable-banner --details=verbose --select-package=com.andrascsanyi.junittest.suite
+```
+
+**Result**:
+
+```bash
+├─ JUnit Jupiter
+│  ├─ SecondSuiteFirstTests
+│  │  ├─ firstTest()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteFirstTests]/[method:firstTest()]
+│  │  │     parent: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteFirstTests]
+│  │  │     source: MethodSource [className = 'com.andrascsanyi.junittest.suite.SecondSuiteFirstTests', methodName = 'firstTest', methodParameterTypes = '']
+│  │  ├─ secondTest()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteFirstTests]/[method:secondTest()]
+│  │  │     parent: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteFirstTests]
+│  │  │     source: MethodSource [className = 'com.andrascsanyi.junittest.suite.SecondSuiteFirstTests', methodName = 'secondTest', methodParameterTypes = '']
+│  └─ SecondSuiteFirstTests
+│  ├─ SecondSuiteSecondTests
+│  │  ├─ firstTest()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteSecondTests]/[method:firstTest()]
+│  │  │     parent: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteSecondTests]
+│  │  │     source: MethodSource [className = 'com.andrascsanyi.junittest.suite.SecondSuiteSecondTests', methodName = 'firstTest', methodParameterTypes = '']
+│  │  ├─ secondTest()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteSecondTests]/[method:secondTest()]
+│  │  │     parent: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.SecondSuiteSecondTests]
+│  │  │     source: MethodSource [className = 'com.andrascsanyi.junittest.suite.SecondSuiteSecondTests', methodName = 'secondTest', methodParameterTypes = '']
+│  └─ SecondSuiteSecondTests
+│  ├─ FirstSuiteFirstTests
+│  │  ├─ firstSuite()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.FirstSuiteFirstTests]/[method:firstSuite()]
+│  │  │     parent: [engine:junit-jupiter]/[class:com.andrascsanyi.junittest.suite.FirstSuiteFirstTests]
+│  │  │     source: MethodSource [className = 'com.andrascsanyi.junittest.suite.FirstSuiteFirstTests', methodName = 'firstSuite', methodParameterTypes = '']
+│  └─ FirstSuiteFirstTests
+└─ JUnit Jupiter
+├─ JUnit Vintage
+│       tags: []
+│   uniqueId: [engine:junit-vintage]
+│     parent: []
+├─ JUnit Platform Suite
+│       tags: []
+│   uniqueId: [engine:junit-platform-suite]
+│     parent: []
+```
+
+**Conclusion**: it seems the `discovery` option doesn't provide any metadata suites related.
+
+**At this point we can say that the discovery provides enough information to build a test case tree.**
 
 ## Executing tests
 
