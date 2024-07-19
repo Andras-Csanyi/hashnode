@@ -30,6 +30,12 @@ The terminal will be done by [Terminal.GUI](https://github.com/gui-cs/Terminal.G
 * a tree element multiple hotkey can be bound
     
 
+The video below shows what the tree looks like with the default theme. The tree can be folded and unfolded, there are default keystrokes for these. Multiple keystrokes can be added to execute various functionalities with the leaf actually selected.
+
+The code is pure C#, meaning high level of awesomeness.
+
+%[https://x.com/csanyi_andras/status/1814275486387732520] 
+
 # Server
 
 The server will be a Dotnet Core server, probably ends up being gRPC, but for building a POC it will be a REST one.
